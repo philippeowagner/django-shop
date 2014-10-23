@@ -27,7 +27,7 @@ setup(
     install_requires=[
         'Django>=1.4',
         'django-classy-tags>=0.3.3',
-        'django-polymorphic>=0.2',
+        'django_polymorphic>=0.2', # our pypi can't handle - as _
         'south>=0.7.2',
         'jsonfield>=0.9.6'
     ],
